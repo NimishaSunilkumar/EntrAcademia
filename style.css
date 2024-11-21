@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.full-width-line {
+    width: 100vw; /* Full width of the viewport */
+    height: 2px; /* Line thickness */
+    border: none; /* Remove default border */
+    background-color: #000000; /* Line color */
+    margin: 20px 0; /* Adjust spacing */
+    position: relative;
+    left: 50%;
+    margin-left: -50vw;
+}
